@@ -1,3 +1,6 @@
 #!/bin/bash
 
-sed -i '/^M/ d' u.txt
+echo "Plik: "
+read plik
+
+sed -i '/^M/d' $plik

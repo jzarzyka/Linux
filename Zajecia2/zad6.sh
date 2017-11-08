@@ -1,3 +1,5 @@
 #!/bin/bash
 
-awk 'gsub(" ",":")' u.txt
+#awk 'gsub(" ",":")' u.txt
+
+IFS=':'

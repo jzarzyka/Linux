@@ -1,5 +1,8 @@
 #!/bin/bash
 
-if [ -e "/root/Desktop/podst/u.txt" ]; then
-  echo "Plik istnieje" 
+read plik
+if [-f $plik ]; then
+	echo "Plik istnieje"
+else
+	echo "Plik nie istnieje"
 fi
